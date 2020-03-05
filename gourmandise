@@ -1,0 +1,17 @@
+Debut de gourmandise
+
+entrée argent;
+entrée prix;
+nombre de bonbon =0;
+
+if argent<=0 or prix<=0
+  afichée erreur
+  fin de gourmandise
+
+while "argent">="prix":
+     argent=argent-prix
+     nombre de bonbon = nombre de bonbon +1     
+
+affiché: (nombre de bonbon);
+
+fin de gourmandise
